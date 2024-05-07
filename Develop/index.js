@@ -45,7 +45,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: `${userQuestions[6]}`,
-        choices: ["Apache License 2.0", "GNU General Public License v3.0", "MIT License", "BSD 2-Clause 'Simplified' License", "BSD 3-Clause 'New' or 'Revised' License", "Boost Software License 1.0", "Creative Commons Zero v1.0 Universal", "Eclipse Public License 2.0", "GNU Affero General Public License v3.0", "GNU General Public License v2.0", "GNU Lesser General Public License v2.1", "Mozilla Public License 2.0", "The Unlicense"]
+        choices: ["Apache License 2.0", "GNU General Public License v3.0", "MIT License", "BSD 2-Clause License", "BSD 3-Clause License", "Creative Commons Zero v1.0 Universal", "Eclipse Public License 2.0", "GNU Affero General Public License v3.0", "GNU Lesser General Public License v2.1", "Mozilla Public License 2.0", "The Unlicense"]
     },
     {
         type: 'input',
@@ -67,7 +67,7 @@ const questions = [
 // TODO: Create a function to initialize app
 function init() { 
     inquirer.prompt(questions).then(function (data) {
-        fs.writeFile("READMEtest.txt", generateMarkdown(data), function (err) {
+        fs.writeFile("READMEtest.md", generateMarkdown(data), function (err) {
             console.log(err ? err : "README written successfully!")
         });
     });
