@@ -74,6 +74,9 @@ ${data.usage}
 ## Contributors
 ${data.contribution}
 
+## Test
+${data.test}
+
 ## License
 ${licenseSection}
 
