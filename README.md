@@ -15,3 +15,5 @@ In order to install this program, you'll need to clone the repository titled REA
 ## Usage
 
 Once you've cloned the repository and followed the installation instructions, you will type, "node index.js" in the command line. This will begin running the application. You will be prompted with different questions related to the requirements for a quality README.md file. Answer every question and when you are done, you will see that README.md file will be created inside your current folder.
+
+[Demo Video](https://app.screencastify.com/v3/watch/kuCyXjRU2ZhA7cdlHGtl)
